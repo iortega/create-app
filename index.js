@@ -24,7 +24,7 @@ const APP_NAME = argv._[0];
 const CURR_DIR = process.cwd();
 const TEMPLATE_DIR = `${__dirname}/templates`;
 
-log('Create App Generator', APP_NAME);
+log('Create App Generator:', APP_NAME);
 
 const CHOICES = fs.readdirSync(TEMPLATE_DIR);
 

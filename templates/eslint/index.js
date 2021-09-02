@@ -10,4 +10,4 @@ module.exports = {
   ],
   templates: [`${__dirname}/.eslintrc.json`],
   webpack: ['eslint-webpack-plugin'],
-}
+};
